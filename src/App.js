@@ -15,6 +15,7 @@ import special2 from './assets/img/special-2.jpg'
 import special3 from './assets/img/special-3.jpg'
 import special4 from './assets/img/special-4.jpg'
 import menuborad from './assets/img/menu-board.png'
+import stamp from './assets/img/stamp.png'
 
 function App() {
 
@@ -24,19 +25,14 @@ function App() {
       <div className="container">
         <div className="row">
           <div className="tm-top-header-inner">
-            <div className="tm-logo-container">
-              <img src={logo} alt="Logo" className="tm-site-logo"/>
-              <h1 className="tm-site-name tm-handwriting-font">Cafe House</h1>
-            </div>
-            <div className="mobile-menu-icon">
-              <i className="fa fa-bars"></i>
-            </div>
             <nav className="tm-nav">
               <ul>
-                <li><a href="index.html" className="active">Home</a></li>
-                <li><a href="today-special.html">Today Special</a></li>
-                <li><a href="menu.html">Menu</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#">Logo</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Community</a></li>
+                <li><a href="#">Location</a></li>
+                <li><a href="#">Our Menus</a></li>
+                <li><a href="#">Recipes</a></li>
               </ul>
             </nav>   
           </div>           
@@ -44,7 +40,8 @@ function App() {
       </div>
     </div>
     <section className="tm-welcome-section">
-      <div className="container tm-position-relative">      
+      <div className="container tm-position-relative">
+          <img className="stamp-logo" src={stamp}/>      
         <div className="row tm-welcome-content">
           <h2 className="tm-welcome-header-2">THE BEST FOODIE EXPERIENCE</h2>
           <p className="subheading">NOW IN LONDON</p>     

@@ -158,7 +158,7 @@ ul {
 .container { max-width: 960px; }
 .tm-handwriting-font { font-family: 'Damion', cursive; }
 .tm-top-header {
-  background: #fddac8;
+  background: transparent;
   color: white;
   z-index: 10;
   position: fixed;
@@ -192,7 +192,7 @@ ul {
   float: left;
 }
 .tm-nav li a {
-  color: white;
+  color: black;
   display: inline-block;
   padding: 15px 15px 20px 30px;
   -webkit-transition: all 0.3s ease;
@@ -229,7 +229,8 @@ ul {
 .tm-welcome-section {
   text-align: center;
   background-image: url('../img/bg-pic.png');
-  background-repeat: no-repeat, repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .white-text { color: white; }
 .blue-text { color: #0066CC; }
@@ -668,6 +669,11 @@ button.tm-more-button {
   height: 350px;
   border: 3px solid #fff;
   border-radius: 10px;
+}
+
+.stamp-logo{
+  float: left;
+  margin-top: 175px;
 }
 
 @media screen and (max-width: 991px) {
